@@ -7,7 +7,7 @@ public class CrapsGame {
       dice2 = (int)(Math.random()* 6) + 1; 
       roll = dice1 + dice2; 
       System.out.println("You rolled "+dice1+" and "+dice2+" , for a total of "+ roll); 
-      if( roll == 7 ) { 
+      if( roll == 7 || roll == 11) {           
         System.out.println("YOU LOSE"); 
         break; 
         } else { 
